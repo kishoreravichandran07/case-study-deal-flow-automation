@@ -1,0 +1,52 @@
+{
+  "initial_state": {
+    "deals": {
+      "D-1": {
+        "name": "Fictional Orbit",
+        "stage": "screening",
+        "thread_id": "T-1",
+        "owner": "alex",
+        "updated_at": "2026-11-01T09:00:00+00:00"
+      }
+    },
+    "processed": [],
+    "prompts": []
+  },
+  "events": [
+    {
+      "id": "E-1",
+      "type": "meeting_completed",
+      "at": "2026-11-02T09:00:00+00:00",
+      "thread_id": "T-1",
+      "deal_id": "D-1"
+    },
+    {
+      "id": "E-1",
+      "type": "meeting_completed",
+      "at": "2026-11-02T09:00:00+00:00",
+      "thread_id": "T-1",
+      "deal_id": "D-1"
+    },
+    {
+      "id": "E-2",
+      "type": "meeting_completed",
+      "at": "2026-11-02T09:00:00+00:00",
+      "thread_id": "T-unknown",
+      "deal_id": "D-1"
+    },
+    {
+      "id": "E-3",
+      "type": "meeting_completed",
+      "at": "2026-10-01T09:00:00+00:00",
+      "thread_id": "T-1",
+      "deal_id": "D-1"
+    },
+    {
+      "id": "E-4",
+      "type": "review_completed",
+      "at": "2026-11-03T09:00:00+00:00",
+      "thread_id": "T-1",
+      "deal_id": "D-1"
+    }
+  ]
+}
