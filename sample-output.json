@@ -1,0 +1,59 @@
+{
+  "state": {
+    "deals": {
+      "D-1": {
+        "name": "Fictional Orbit",
+        "stage": "committee",
+        "thread_id": "T-1",
+        "owner": "alex",
+        "updated_at": "2026-11-03T09:00:00+00:00"
+      }
+    },
+    "processed": [
+      "E-1",
+      "E-4"
+    ],
+    "prompts": [
+      {
+        "deal_id": "D-1",
+        "owner": "alex",
+        "text": "Request diligence materials",
+        "event_id": "E-1"
+      },
+      {
+        "deal_id": "D-1",
+        "owner": "alex",
+        "text": "Prepare committee review",
+        "event_id": "E-4"
+      }
+    ]
+  },
+  "audit": [
+    {
+      "id": "E-1",
+      "outcome": "advanced",
+      "from": "screening",
+      "to": "diligence"
+    },
+    {
+      "id": "E-1",
+      "outcome": "duplicate"
+    },
+    {
+      "id": "E-2",
+      "outcome": "quarantined",
+      "reason": "unlinked deal/thread"
+    },
+    {
+      "id": "E-3",
+      "outcome": "quarantined",
+      "reason": "stale event"
+    },
+    {
+      "id": "E-4",
+      "outcome": "advanced",
+      "from": "diligence",
+      "to": "committee"
+    }
+  ]
+}
