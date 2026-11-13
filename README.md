@@ -1,34 +1,32 @@
 # Case Study: Deal-Flow Automation for an Investment Team
 
-> **What this is:** A written case study of an internal workflow I built while working
-> in venture capital. No company data, deal details, or startup information is shared.
+> **What this is:** A written case study, in my own words, of an internal workflow I
+> built while working in venture capital. The original configuration and data are not
+> included here; no company data, deal details, or startup information is shared.
 >
 > **Date written:** November 2026
 
-## The problem
+## Context
 
-Deal evaluation moved through long internal email threads, while pipeline tracking lived
-in a separate Airtable base. The two drifted apart: deal stages in the tracker lagged the
-actual conversation, and next steps depended on someone remembering to update the base.
+At Plug and Play, the investment team evaluated startups over internal deal email
+threads and tracked the pipeline in Airtable.
 
 ## What I built
 
 An Airtable workflow linked to the internal deal email threads that:
 
-- Auto-advanced startup deal stages as the underlying email conversation progressed.
-- Prompted the deal team on next steps at each stage, so follow-ups did not rely on
-  memory.
+- Auto-advanced startup deal stages.
+- Prompted the deal team on next steps.
 
 ## My contribution
 
-I designed the workflow and implemented it: mapping the deal pipeline into Airtable,
-connecting it to the email threads, and defining the stage-advancement rules and the
-next-step prompts the team would see.
+I designed and built this workflow: the Airtable base, its link to the deal email
+threads, and the automation behind the stage updates and next-step prompts.
 
 ## Takeaway
 
-The value of automation in an investment workflow is keeping the system of record honest
-in real time - the tracker should reflect the conversation, not trail it.
+Automation is most useful when it keeps the tracker in step with the team's actual
+conversations, rather than depending on manual updates.
 
 ---
 
